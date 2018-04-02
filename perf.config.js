@@ -22,8 +22,8 @@ module.exports = {
 	},
 	upload: {
 		key: 'S3',
-		target: '{{S3TARGET}}',
-		region: 'us-east-1',
+		target: "{{S3TARGET}}",
+		region: "{{S3REGION}}",
 		creds: {
 			accessKeyId: '{{S3ID}}',
 			secretAccessKey: '{{S3KEY}}'

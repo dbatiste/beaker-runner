@@ -1,0 +1,13 @@
+{
+  "name": "beaker-runner",
+  "private": true,
+  "description": "Runner for client-side performance measurements",
+  "scripts": {
+    "test": "measure --headless=false --configjs perf.config.js"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "d2l-beaker": "0.0.3"
+  },
+  "devDependencies": {}
+}
